@@ -56,7 +56,7 @@ def main():
     first_chunk = True
 
     # run pipeline implemented with batching
-    MAX_ROWS = 5000 # for testing purposes
+    MAX_ROWS = 1000000 # for testing purposes
     row_count = 0
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         for line in f:

@@ -9,6 +9,8 @@ Place it in the `data/raw/` folder:
 
 Alternatively place any raw data ready for pre-processing in the data/raw folder. The data structure this works on is ['text']['url']
 
+If using more than 1,000,000 rows of data, update MAX_ROWS in main.py to set above the number of text records.
+
 
 ### Install Dependencies
 

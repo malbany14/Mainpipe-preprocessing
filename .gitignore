@@ -1,6 +1,7 @@
 # Ignore data and report directories
-/data/
-/reports/
+/data/raw/mainpipe_data_v1.jsonl
+/data/cleaned/cleaned_csv_test_tokens.npy
+/data/cleaned/cleaned_csv_test.JSONL
 
 # Ignore virtual environment
 /venv/
