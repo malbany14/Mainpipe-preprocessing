@@ -13,3 +13,7 @@
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+# ignore report
+Report.docx
+Report.pdf
