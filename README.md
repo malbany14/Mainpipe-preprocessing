@@ -12,12 +12,14 @@ Alternatively place any raw data ready for pre-processing in the data/raw folder
 
 ### Install Dependencies
 
-Use a virtual environment (bash):
+Use a virtual environment (windows bash):
 
 python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
+
+venv\Scripts\activate
+
 pip install --upgrade pip
+
 pip install -r requirements.txt
 
 ## Running the Pipeline
