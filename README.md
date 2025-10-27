@@ -9,20 +9,21 @@ Place it in the `data/raw/` folder:
 
 Alternatively place any raw data ready for pre-processing in the data/raw folder. The data structure this works on is ['text']['url']
 
-## Running the Pipeline
 
-Once the dataset is in `data/raw/`, you can run the full preprocessing pipeline. The main orchestration script is located in `mainpipe/Pipeline/main.py`.
-
-### 1. Install Dependencies
+### Install Dependencies
 
 Use a virtual environment:
 
-```bash
+bash:
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 pip install --upgrade pip
 pip install -r requirements.txt
+
+## Running the Pipeline
+
+Once the dataset is in `data/raw/`, you can run the full preprocessing pipeline. The main orchestration script is located in `mainpipe/Pipeline/main.py`.
 
 ## Output
 
