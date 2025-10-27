@@ -12,9 +12,8 @@ Alternatively place any raw data ready for pre-processing in the data/raw folder
 
 ### Install Dependencies
 
-Use a virtual environment:
+Use a virtual environment (bash):
 
-bash:
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
