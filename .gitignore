@@ -1,0 +1,15 @@
+# Ignore data and report directories
+/data/
+/reports/
+
+# Ignore virtual environment
+/venv/
+
+# Ignore Jupyter notebooks in mainpipe/mAlbany
+/mainpipe/mAlbany/*.ipynb
+
+# Ignore temporary or cache files
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.env
